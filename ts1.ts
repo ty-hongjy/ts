@@ -1,8 +1,7 @@
-"use strict"; 
-export class Hello{};
+export class Hello{}
 
 
-Function test(a: string,b?: string,c: string="hjy"){
+function test(a: string,b?: string,c: string="hjy"){
 		console.log(a);
 		console.log(b);
 		console.log(c);
